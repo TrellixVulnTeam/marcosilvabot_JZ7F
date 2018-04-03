@@ -20,7 +20,7 @@ function sendTweet() {
       var hours = d.getHours(); 
       var minutes = d.getMinutes();
       var seconds = d.getSeconds();
-      console.log("GeForceNowBot just Tweeted: " + tweet + " | Tweeted at: " + hours + ":" + minutes + " (UTC)");
+      console.log("MarcoSilvaBot just Tweeted: " + tweet + " | Tweeted at: " + hours + ":" + minutes + " (UTC)");
   })
 }
 
