@@ -10,7 +10,7 @@ var T = new Twit({
  timeout_ms:           60*1000,  // optional HTTP request timeout to apply to all requests. 
 })
 
-var tweet = "Marco Silva is currently available for hire, @andrearadri. Please hire him. #MarcoSilvaForLeeds #lufc"
+var tweet = "Marco Silva is no longer available for hire, @andrearadri, but Claudio Ranieri is. #Hexit #RanieriForLeeds #lufc"
 
 sendTweet();
 
