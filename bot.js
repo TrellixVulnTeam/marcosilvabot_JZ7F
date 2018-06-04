@@ -1,16 +1,16 @@
-console.log("Tweeting");
+//Code No Longer triggers.
 
 var Twit = require('twit')
 
 var T = new Twit({
  consumer_key:         'R5pqmZeN1a9p3d7nvS86tsNxN',
- consumer_secret:      'ZZYNe3TqLj53CDlIE8Q15aNkU3uPWv6q11mtoVQCldX1UcWNA7',
+ consumer_secret:      'enter_here',
  access_token:         '981271879192334336-lii30I0ul81A8VB4jNh685UHemS9gwD',
- access_token_secret:  '6QKffWWCTwIkIQQcNdBsEz3DY3RU4yXVksxDdH3NiYeZp',
- timeout_ms:           60*1000,  // optional HTTP request timeout to apply to all requests. 
+ access_token_secret:  'enter_here',
+ timeout_ms:           60*1000,
 })
 
-var tweet = "Marco Silva is no longer available for hire, @andrearadri, but Claudio Ranieri is. #Hexit #RanieriForLeeds #lufc"
+var tweet = "Marco Silva is no longer available for hire, @andrearadri, but Marcelo Bielsa is. #BielsaForLeeds #lufc"
 
 sendTweet();
 
